@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caça Palavras - Matriz</title>
+
+</head>
+<body>
+<div class="palavras">
+    <h1>PALAVRAS:</h1>
+    <br>
+    <h3>LIVRO</h3>
+    <h3>CAMINHÃO</h3>
+    <h3>VESTIBULAR</h3>
+    <h3>ÁRVORE</h3>
+    <h3>PASTELARIA</h3>
+    <h3>MESA</h3>
+    <h3>ESTANTE</h3>
+</div>
+
+    <table>
+    <script>
+        matriz = new Array;
+        matriz = [
+        //   0         1      2       3       4       5       6       7       8       9      10       11      12      13     14      15      16      17      18      19      20      21     
+            ["L"	,"N"	,"I"	,"A"	,"P"	,"A"	,"S"	,"T"	,"E"	,"L"	,"A"	,"R"	,"I"	,"A"	,"E"	,"W"	,"G"	,"N"	,"A"	,"H"	,"L"	,"U"], //0
+            ["I"	,"U"	,"A"	,"O"	,"O"	,"E"	,"O"	,"U"	,"C"	,"C"	,"R"	,"W"	,"A"	,"E"	,"K"	,"T"	,"Y"	,"F"	,"M"	,"O"	,"E"	,"L"], //1
+            ["V"	,"N"	,"R"	,"O"	,"T"	,"S"	,"M"	,"O"	,"Y"	,"A"	,"V"	,"E"	,"A"	,"F"	,"O"	,"H"	,"I"	,"F"	,"H"	,"I"	,"H"	,"F"], //2
+            ["R"	,"T"	,"W"	,"S"	,"B"	,"O"	,"O"	,"E"	,"O"	,"V"	,"O"	,"M"	,"E"	,"O"	,"R"	,"D"	,"B"	,"R"	,"E"	,"U"	,"E"	,"R"], //3
+            ["O"	,"I"	,"K"	,"U"	,"N"	,"S"	,"C"	,"T"	,"N"	,"N"	,"R"	,"E"	,"I"	,"R"	,"I"	,"V"	,"L"	,"Z"	,"I"	,"N"	,"T"	,"E"], //4
+            ["J"	,"I"	,"E"	,"E"	,"V"	,"A"	,"A"	,"I"	,"R"	,"V"	,"E"	,"S"	,"T"	,"I"	,"B"	,"U"	,"L"	,"A"	,"R"	,"H"	,"O"	,"P"], //5
+            ["K"	,"C"	,"S"	,"I"	,"T"	,"Y"	,"T"	,"I"	,"C"	,"Y"	,"A"	,"S"	,"H"	,"I"	,"H"	,"T"	,"S"	,"E"	,"I"	,"E"	,"O"	,"O"], //6
+            ["C"	,"Y"	,"T"	,"R"	,"T"	,"O"	,"E"	,"M"	,"W"	,"L"	,"D"	,"K"	,"C"	,"L"	,"M"	,"O"	,"O"	,"U"	,"H"	,"S"	,"O"	,"S"], //7
+            ["E"	,"S"	,"O"	,"T"	,"F"	,"F"	,"R"	,"H"	,"T"	,"H"	,"M"	,"A"	,"A"	,"E"	,"E"	,"O"	,"N"	,"B"	,"U"	,"D"	,"I"	,"E"], //8
+            ["L"	,"C"	,"A"	,"M"	,"I"	,"N"	,"H"	,"A"	,"O"	,"L"	,"E"	,"T"	,"S"	,"E"	,"A"	,"W"	,"H"	,"E"	,"E"	,"S"	,"T"	,"E"], //9
+            ["N"	,"R"	,"E"	,"S"	,"B"	,"E"	,"U"	,"S"	,"S"	,"L"	,"S"	,"E"	,"A"	,"D"	,"T"	,"R"	,"A"	,"S"	,"T"	,"A"	,"T"	,"T"], //10
+            ["I"	,"H"	,"S"	,"E"	,"E"	,"E"	,"T"	,"E"	,"S"	,"T"	,"A"	,"N"	,"T"	,"E"	,"V"	,"E"	,"Y"	,"O"	,"A"	,"E"	,"B"	,"T"], //11
+            ["O"	,"A"	,"I"	,"I"	,"I"	,"H"	,"L"	,"L"	,"T"	,"I"	,"F"	,"T"	,"D"	,"K"	,"F"	,"U"	,"L"	,"S"	,"F"	,"O"	,"N"	,"O"], //12
+            ["T"	,"O"	,"G"	,"S"	,"D"	,"R"	,"F"	,"U"	,"A"	,"P"	,"E"	,"M"	,"D"	,"Y"	,"O"	,"I"	,"A"	,"H"	,"R"	,"R"	,"S"	,"L"], //13
+            ["A"	,"M"	,"R"	,"C"	,"E"	,"N"	,"I"	,"D"	,"O"	,"O"	,"T"	,"W"	,"A"	,"C"	,"T"	,"T"	,"B"	,"A"	,"L"	,"N"	,"E"	,"B"], //14
+            ["T"	,"S"	,"E"	,"M"	,"U"	,"D"	,"E"	,"O"	,"N"	,"A"	,"E"	,"U"	,"F"	,"D"	,"N"	,"E"	,"I"	,"C"	,"D"	,"P"	,"D"	,"N"]  //15
+    ];
+
+
+
+var x = 0;
+    
+        for(linha  = 0; linha < 15; linha++){
+            document.write("<tr >");
+            for(coluna = 0; coluna < 22; coluna ++){
+                
+                x++;
+            
+                document.write("<td align='center' width='20px' height='20px' id = 'n"+x+"'>" + matriz[linha][coluna]+ "</td>" );
+                
+            }
+            document.write("</tr>");
+            
+        }
+        
+    </script>
+
+
+
+    
+
+</table>
+
+
+</body>
+</html>

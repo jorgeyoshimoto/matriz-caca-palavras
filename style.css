@@ -1,0 +1,45 @@
+
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: verdana;
+}
+
+table, th, td {
+    position: relative; 
+    left: 200px
+    }
+
+.palavras{
+    position: absolute;
+}
+    
+        #n1,#n23,#n45,#n67,#n89{
+            background-color: rgb(202, 79, 8);
+            }
+    
+        #n5,#n6,#n7,#n8,#n9,#n10,#n11,#n12,#n13,#n14,#n15{
+            background-color: rgb(202, 79, 8);
+            }
+    
+        #n11,#n33,#n55,#n77,#n99,#n121{
+            background-color: rgb(202, 79, 8);
+            }
+
+        #n120,#n122,#n123,#n124,#n125,#n126,#n127,#n128,#n129{
+            background-color: rgb(202, 79, 8);
+            }
+
+        #n200,#n201,#n202,#n203,#n204,#n205,#n206,#n207{
+            background-color: rgb(202, 79, 8);
+            }
+
+        #n250,#n251,#n252,#n253,#n254,#n255,#n256{
+            background-color: rgb(202, 79, 8);
+            }
+
+        #n209,#n187,#n231{
+            background-color: rgb(202, 79, 8);
+            }
+
+     
